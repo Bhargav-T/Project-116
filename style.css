@@ -1,0 +1,21 @@
+h3{
+    font-size: 30px !important;
+ }
+ .btn-success:hover{
+  background-color: red;
+ }
+ 
+canvas{
+     border-color: black;
+     border-width: 5px;
+     border-style: dashed;
+ }
+ canvas{
+    animation-name: colorchanger;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchanger{
+    from{box-shadow: 1px 1px 40px rgb(121, 200, 224);}
+    to{box-shadow: 1px 1px 40px red;}
+}
